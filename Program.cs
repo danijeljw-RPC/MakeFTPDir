@@ -34,16 +34,17 @@ namespace MakeFTPDir
             }
             else
             {
-                Console.WriteLine("RePass Cloud Make FTP Directory\n" +
-                    "Copyright (c) RePass Cloud Pty Ltd. All rights reserved.\n" +
-                    "\n" +
-                    "Creates path for upload to FTP server.\n" +
-                    "\n" +
-                    "\n" +
-                    "USAGE:\n" +
-                    "\n" +
-                    "  mkftpd [ftp://localhost/dir/file.txt]\n");
-
+                Console.WriteLine("RePass Cloud Make FTP Directory" +
+                    Environment.NewLine + "Copyright (c) RePass Cloud Pty Ltd. All rights reserved." +
+                    Environment.NewLine +
+                    "Creates path for upload to FTP server." +
+                    Environment.NewLine +
+                    Environment.NewLine +
+                    Environment.NewLine +
+                    "USAGE:" +
+                    Environment.NewLine +
+                    "  mkftpd [ftp://localhost/dir/file.txt]" +
+                    Environment.NewLine);
                 Thread.Sleep(3000);
                 Environment.Exit(0);
             }
