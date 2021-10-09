@@ -1,8 +1,3 @@
-﻿using System;
-using System.IO;
-using System.Net;
-using System.Threading;
-
 /*
  *    Copyright 2021 RePass Cloud Pty Ltd
  *
@@ -18,6 +13,11 @@ using System.Threading;
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
+
+using System;
+using System.IO;
+using System.Net;
+using System.Threading;
 
 namespace MakeFTPDir
 {
